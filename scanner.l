@@ -12,7 +12,7 @@
 "+"|"-"|"*"|"/"|"%"|"^"         return MATHOP;
 ";"                             return SEMICOLON;
 "#.*"|"//.*"                    return COMMENT;
-"("|")"|"["|"]"|"{"|"}"         return BRACKET;
+"("|")"|"["|"]"|"{"|"}"|"<"|">" return BRACKET;
 "True"|"False"|"true"|"false"   return BOOLEAN;
 "\""                            return DQUOTES;
 "'"                             return SQUOTES;
