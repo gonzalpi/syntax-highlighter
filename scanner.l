@@ -11,7 +11,7 @@
 "&&"|"||"|"~"|"and"|"or"|"not"  return LOGICALOP;
 "+"|"-"|"*"|"/"|"%"|"^"         return MATHOP;
 ";"                             return SEMICOLON;
-"#.*"|"//.*"                    return COMMENT;
+"# ".*|"// ".*                    return COMMENT;
 "("|")"|"["|"]"|"{"|"}"|"<"|">" return BRACKET;
 "True"|"False"|"true"|"false"   return BOOLEAN;
 "\""                            return DQUOTES;
