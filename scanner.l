@@ -4,8 +4,8 @@
 
 %%
 
-"if"|"while"|"do"|"for"|"break"|"continue"|"in"|"def"|"return"|"try"|"except"|"import"|"as"|"from"|"print"|"using"|"define"|"let"   return KEYWORD;
-"int"|"void"|"float"|"double"|"string"|"str"|"list"|"tuple"|"range"|"dict"|"set"|"bool"|"char"|"long"|"short"|"byte"                return TYPE;
+"if"|"while"|"do"|"for"|"break"|"continue"|"main"|"include"|"in"|"def"|"return"|"try"|"except"|"import"|"as"|"from"|"print"|"using"|"define"|"let"|"namespace"|"std"    return KEYWORD;
+"int"|"void"|"float"|"double"|"string"|"str"|"list"|"tuple"|"range"|"dict"|"set"|"bool"|"char"|"long"|"short"|"byte"                        return TYPE;
 ">"|">="|"=="|"<="|"<"|"!="     return COMPAREOP;
 "="                             return ASSIGNMENTOP;
 "&&"|"||"|"~"|"and"|"or"|"not"  return LOGICALOP;
