@@ -1,0 +1,21 @@
+#sample
+{
+    font-family: monospace;
+    font-size: large;
+    background-color: white;
+    color: black;
+}
+#code {background-color: rgb(220, 220, 220);}
+.keyword {background-color: aquamarine;}
+.type {background-color: firebrick; color: white;}
+.assignment_operator {background-color: blueviolet;}
+.logical_operator {background-color: greenyellow;}
+.mathematical_operator {background-color: rosybrown;}
+.compare_operator {background-color: royalblue;}
+.semicolon {background-color: palevioletred; color: white;}
+.comment {background-color: peru;}
+.bracket {background-color: cadetblue;}
+.boolean {background-color: olive;}
+.double_quotes {background-color: orangered;}
+.single_quotes {background-color: orchid;}
+.number {background-color: indigo; color: white}
