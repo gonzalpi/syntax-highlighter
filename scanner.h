@@ -1,0 +1,15 @@
+#define KEYWORD         1
+#define TYPE            2
+#define COMPAREOP       3
+#define ASSIGNMENTOP    4
+#define LOGICALOP       5
+#define MATHOP          6
+#define SEMICOLON       7
+#define COMMENT         8
+#define BRACKET         9
+#define BOOLEAN         10
+#define DQUOTES         11
+#define SQUOTES         12
+#define NUMBER          13
+#define LINEBREAK       14
+#define NONE            15
