@@ -2,6 +2,8 @@
 
 The program receives a text file containing code in C++, Python or JavaScript and outputs an HTML file containing the same code and highlighting elements from lexical categories that are shared between the three languages.
 
+**Note: multi-threaded highlighting can be run in the [Python](python) implementation**
+
 ## How to highlight code
 
 From the folder where all files are stored, run shell script with path to code file as an argument:
