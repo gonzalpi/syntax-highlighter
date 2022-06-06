@@ -9,10 +9,10 @@ for filename in argv[1:]:
     with open(filename) as f:
         data = "".join(f.readlines())
 
-    with open(filename + '.html', 'w') as f:
+    with open(filename + '_single.html', 'w') as f:
         # Open tags, copy CSS
         f.write("<html><head><style>")
-        with open("style.css", "r") as style:
+        with open("./style.css", "r") as style:
             f.write("".join(style.readlines()))
         f.write("</style></head><body>")
         # Write label colors
