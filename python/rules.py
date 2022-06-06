@@ -16,7 +16,7 @@ tokens = (
     "NONE",
 )
 
-t_KEYWORD = r'if|while|do|for|break|continue|main|include|in\s|def|return|try|except|import|as|from|print|using|define|let|namespace|std'
+t_KEYWORD = r'if|while|do|for|break|continue|main|include|in\s|def|return|try|except|import|as|from|print|using|define|let|namespace|std|self'
 t_TYPE = r'int|void|float|double|string|str|list|tuple|range|dict|set|bool|char|long|short|byte'
 t_COMPARE_OPERATOR = r'>|>=|==|<=|<|!='
 t_ASSIGNMENT_OPERATOR = r'='
