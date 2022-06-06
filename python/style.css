@@ -1,0 +1,15 @@
+body {font-family: monospace; font-size: large;}
+#code {background-color: rgb(220, 220, 220);}
+.KEYWORD {background-color: aquamarine;}
+.TYPE {background-color: firebrick; color: white;}
+.COMPARE_OPERATOR {background-color: blueviolet;}
+.ASSIGNMENT_OPERATOR {background-color: greenyellow;}
+.LOGICAL_OPERATOR {background-color: rosybrown;}
+.MATHEMATICAL_OPERATOR {background-color: royalblue;}
+.SEMICOLON {background-color: palevioletred; color: white;}
+.COMMENT {background-color: peru;}
+.BRACKET {background-color: cadetblue;}
+.BOOLEAN {background-color: olive;}
+.DOUBLE_QUOTES {background-color: orangered;}
+.SINGLE_QUOTES {background-color: orchid;}
+.NUMBER {background-color: indigo; color: white}
